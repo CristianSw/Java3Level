@@ -1,0 +1,16 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Java3Level
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision e377be408cea7876006f6207a084454e3619a483)
++++ b/README.md	(date 1636908974749)
+@@ -1,1 +1,2 @@
+-# Java3Level
+\ No newline at end of file
++Java level 3 on GeekBrains. 
++Lest do this amazing.
+\ No newline at end of file
