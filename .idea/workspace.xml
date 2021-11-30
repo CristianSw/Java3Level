@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cfd3f04-336f-44e0-844a-455a7631e105" name="Changes" comment="" />
+    <list default="true" id="2cfd3f04-336f-44e0-844a-455a7631e105" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/homework1/ArrayToArraylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/ElementChanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/fruits/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/fruits/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/fruits/Fruits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/fruits/Orange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
