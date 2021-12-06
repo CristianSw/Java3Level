@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2cfd3f04-336f-44e0-844a-455a7631e105" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/homework1/ArrayToArraylist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1/ElementChanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1/fruits/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1/fruits/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1/fruits/Fruits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1/fruits/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat_users.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadb.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydb.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/Lesson/JDBCApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/client/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/constants/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/server/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/server/BaseAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/server/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/server/DBAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/server/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/server/ServerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java3Level.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java3Level.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,25 +40,80 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="homework" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="20uysZ09jw3oFvEWHjHVVTXxXry" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Application.EchoClient">
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework2.chat.client.EchoClient" />
+      <module name="Java3Level" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework2.chat.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework2.Lesson.JDBCApp" />
+      <module name="Java3Level" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework2.Lesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework2.chat.server.ServerApp" />
+      <module name="Java3Level" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework2.chat.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.ServerApp" />
+        <item itemvalue="Application.JDBCApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -56,6 +125,7 @@
       <updated>1636908976747</updated>
       <workItem from="1636908980294" duration="2718000" />
       <workItem from="1636911717101" duration="1687000" />
+      <workItem from="1638785966456" duration="8711000" />
     </task>
     <servers />
   </component>
@@ -72,6 +142,8 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
