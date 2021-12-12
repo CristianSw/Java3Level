@@ -5,24 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cfd3f04-336f-44e0-844a-455a7631e105" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chat_users.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadb.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydb.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/Lesson/JDBCApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/client/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/constants/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/server/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/server/BaseAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/server/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/server/DBAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/server/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/server/ServerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.xtx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dir/demo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/BufferedIOApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/ByteStreamApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/DataIOApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/FileApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/FileIOApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/ObjectIOApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/ReaderApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/TryWithResourcesApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/WriterApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/ChatMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/ClientTwoStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/ServerStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/client/Clients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/client/OutstandingChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/client/communication/ClientCommunicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/client/communication/ClientConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/client/gui/ChatFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/AuthServiceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/BaseAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/DBAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java3Level.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java3Level.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework2/chat/client/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/client/EchoClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,19 +72,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/homework3" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.EchoClient">
-    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework2.chat.client.EchoClient" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/homework3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ChatMain">
+    <configuration name="ChatMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework3.chat.ChatMain" />
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework2.chat.client.*" />
+          <option name="PATTERN" value="homework3.chat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBCApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework2.Lesson.JDBCApp" />
+    <configuration name="ClientTwoStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework3.chat.ClientTwoStarter" />
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework2.Lesson.*" />
+          <option name="PATTERN" value="homework3.chat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +111,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework2.chat.server.ServerApp" />
+    <configuration name="DataIOApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework3.Lesson3.DataIOApp" />
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework2.chat.server.*" />
+          <option name="PATTERN" value="homework3.Lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework3.chat.ServerStarter" />
+      <module name="Java3Level" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework3.chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WriterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework3.Lesson3.WriterApp" />
+      <module name="Java3Level" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework3.Lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,9 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EchoClient" />
-        <item itemvalue="Application.ServerApp" />
-        <item itemvalue="Application.JDBCApp" />
+        <item itemvalue="Application.ChatMain" />
+        <item itemvalue="Application.ServerStarter" />
+        <item itemvalue="Application.ClientTwoStarter" />
+        <item itemvalue="Application.DataIOApp" />
+        <item itemvalue="Application.WriterApp" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +171,7 @@
       <workItem from="1636908980294" duration="2718000" />
       <workItem from="1636911717101" duration="1687000" />
       <workItem from="1638785966456" duration="8711000" />
+      <workItem from="1639250067740" duration="17395000" />
     </task>
     <servers />
   </component>
@@ -142,8 +188,19 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -6,9 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.net.Socket;
 
 public class EchoClient extends JFrame {
@@ -91,6 +89,19 @@ public class EchoClient extends JFrame {
             textField.grabFocus();
         } catch (Exception ex) {
             ex.printStackTrace();
+        }
+        File file = new File(login+"History");
+        if (!file.exists()){
+            try {
+                file.createNewFile();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        try (DataOutputStream outputStream = new DataOutputStream(new FileOutputStream(login+"History"))){
+
+        }catch (IOException e){
+            e.printStackTrace();
         }
     }
 
