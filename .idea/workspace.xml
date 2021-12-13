@@ -5,35 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cfd3f04-336f-44e0-844a-455a7631e105" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/demo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo.xtx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dir/demo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/BufferedIOApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/ByteStreamApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/DataIOApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/FileApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/FileIOApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/ObjectIOApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/ReaderApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/TryWithResourcesApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/Lesson3/WriterApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/ChatMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/ClientTwoStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/ServerStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/client/Clients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/client/OutstandingChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/client/communication/ClientCommunicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/client/communication/ClientConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/client/gui/ChatFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/AuthServiceInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/BaseAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/DBAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/BikeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/ConstructorReflectionApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/FieldReflectionApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/MethodReflectionApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/NotSimpleAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/ReflectionApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/SimpleAnnotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java3Level.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java3Level.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework2/chat/client/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework2/chat/client/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework3/chat/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/ClientHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -55,6 +35,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -84,7 +72,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/homework3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChatMain">
+  <component name="RunManager" selected="Application.MethodReflectionApp">
     <configuration name="ChatMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework3.chat.ChatMain" />
       <module name="Java3Level" />
@@ -98,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientTwoStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.chat.ClientTwoStarter" />
+    <configuration name="ConstructorReflectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework7.Lesson7.ConstructorReflectionApp" />
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework3.chat.*" />
+          <option name="PATTERN" value="homework7.Lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataIOApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.Lesson3.DataIOApp" />
+    <configuration name="FieldReflectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework7.Lesson7.FieldReflectionApp" />
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework3.Lesson3.*" />
+          <option name="PATTERN" value="homework7.Lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.chat.ServerStarter" />
+    <configuration name="MethodReflectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework7.Lesson7.MethodReflectionApp" />
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework3.chat.*" />
+          <option name="PATTERN" value="homework7.Lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.Lesson3.WriterApp" />
+    <configuration name="ReflectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework7.Lesson7.ReflectionApp" />
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework3.Lesson3.*" />
+          <option name="PATTERN" value="homework7.Lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodReflectionApp" />
+        <item itemvalue="Application.ConstructorReflectionApp" />
+        <item itemvalue="Application.FieldReflectionApp" />
+        <item itemvalue="Application.ReflectionApp" />
         <item itemvalue="Application.ChatMain" />
-        <item itemvalue="Application.ServerStarter" />
-        <item itemvalue="Application.ClientTwoStarter" />
-        <item itemvalue="Application.DataIOApp" />
-        <item itemvalue="Application.WriterApp" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +159,8 @@
       <workItem from="1636908980294" duration="2718000" />
       <workItem from="1636911717101" duration="1687000" />
       <workItem from="1638785966456" duration="8711000" />
-      <workItem from="1639250067740" duration="17395000" />
+      <workItem from="1639250067740" duration="18417000" />
+      <workItem from="1639337355694" duration="7231000" />
     </task>
     <servers />
   </component>

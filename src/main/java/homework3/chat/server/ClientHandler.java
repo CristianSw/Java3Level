@@ -110,6 +110,14 @@ public class ClientHandler {
 
     }
 
+    private void history(final String login){
+
+    }
+
+    private void loadHistory(final String login){
+
+    }
+
     public void sendMessage(String outboundMessage) {
         try {
             out.writeUTF(outboundMessage);
