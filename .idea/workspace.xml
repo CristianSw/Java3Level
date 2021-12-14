@@ -5,13 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cfd3f04-336f-44e0-844a-455a7631e105" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/BikeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/ConstructorReflectionApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/FieldReflectionApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/MethodReflectionApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/NotSimpleAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/ReflectionApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/SimpleAnnotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework3/chat/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/ClientHandler.java" afterDir="false" />
     </list>
@@ -160,7 +153,8 @@
       <workItem from="1636911717101" duration="1687000" />
       <workItem from="1638785966456" duration="8711000" />
       <workItem from="1639250067740" duration="18417000" />
-      <workItem from="1639337355694" duration="7231000" />
+      <workItem from="1639337355694" duration="7885000" />
+      <workItem from="1639513827328" duration="2194000" />
     </task>
     <servers />
   </component>
