@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cfd3f04-336f-44e0-844a-455a7631e105" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/BikeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/ConstructorReflectionApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/FieldReflectionApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/MethodReflectionApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/NotSimpleAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/ReflectionApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework7/Lesson7/SimpleAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework4/Lesson4/CounterApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework4/Lesson4/DeadLockApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework4/Lesson4/ExecutorApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework4/Lesson4/Interrupt2App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework4/Lesson4/InterruptApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework4/Lesson4/ThreadApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework3/chat/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/ClientHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,15 +21,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework" />
+        <entry key="$PROJECT_DIR$" value="homework3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,20 +70,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/homework3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MethodReflectionApp">
-    <configuration name="ChatMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.chat.ChatMain" />
-      <module name="Java3Level" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework3.chat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.InterruptApp">
     <configuration name="ConstructorReflectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework7.Lesson7.ConstructorReflectionApp" />
       <module name="Java3Level" />
@@ -99,12 +84,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldReflectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework7.Lesson7.FieldReflectionApp" />
+    <configuration name="CounterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework4.Lesson4.CounterApp" />
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework7.Lesson7.*" />
+          <option name="PATTERN" value="homework4.Lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeadLockApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework4.Lesson4.DeadLockApp" />
+      <module name="Java3Level" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework4.Lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterruptApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework4.Lesson4.InterruptApp" />
+      <module name="Java3Level" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework4.Lesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,26 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework7.Lesson7.ReflectionApp" />
-      <module name="Java3Level" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework7.Lesson7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterruptApp" />
+        <item itemvalue="Application.DeadLockApp" />
+        <item itemvalue="Application.CounterApp" />
         <item itemvalue="Application.MethodReflectionApp" />
         <item itemvalue="Application.ConstructorReflectionApp" />
-        <item itemvalue="Application.FieldReflectionApp" />
-        <item itemvalue="Application.ReflectionApp" />
-        <item itemvalue="Application.ChatMain" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +175,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
