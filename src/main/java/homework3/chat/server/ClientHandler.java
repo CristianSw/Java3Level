@@ -5,6 +5,8 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 import java.util.Optional;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class ClientHandler {
 
@@ -13,6 +15,7 @@ public class ClientHandler {
     private DataOutputStream out;
     private String name;
     private boolean isAuthenticated = false;
+    private final ExecutorService executorService = Executors.newCachedThreadPool();
 
     public ClientHandler(Server server, Socket socket) {
         try {
@@ -70,7 +73,8 @@ public class ClientHandler {
         sendMessage("Please do authentication. Template is: -auth [login] [password]");
 
         while (true) {
-            new Thread(() -> timeoutValidator(socket, startConnectingTime)).start();
+            executorService.execute(()->timeoutValidator(socket, startConnectingTime));
+           // new Thread(() -> timeoutValidator(socket, startConnectingTime)).start(); //alternative to executor service
             String maybeCredentials = in.readUTF();
             if (maybeCredentials.startsWith("-auth")) {
                 String[] credentials = maybeCredentials.split("\\s");

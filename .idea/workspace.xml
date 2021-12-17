@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cfd3f04-336f-44e0-844a-455a7631e105" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework4/Lesson4/CounterApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework4/Lesson4/DeadLockApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework4/Lesson4/ExecutorApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework4/Lesson4/Interrupt2App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework4/Lesson4/InterruptApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework4/Lesson4/ThreadApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework4/ThreadApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework3/chat/client/OutstandingChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/client/OutstandingChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework3/chat/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework4/Lesson4/ExecutorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework4/Lesson4/ExecutorApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +56,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/homework3" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -70,13 +69,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/homework3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterruptApp">
-    <configuration name="ConstructorReflectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework7.Lesson7.ConstructorReflectionApp" />
+  <component name="RunManager" selected="Application.ThreadApp">
+    <configuration name="ChatMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework3.chat.ChatMain" />
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework7.Lesson7.*" />
+          <option name="PATTERN" value="homework3.chat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,21 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CounterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework4.Lesson4.CounterApp" />
-      <module name="Java3Level" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework4.Lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeadLockApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework4.Lesson4.DeadLockApp" />
+    <configuration name="ExecutorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework4.Lesson4.ExecutorApp" />
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
@@ -123,12 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodReflectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework7.Lesson7.MethodReflectionApp" />
+    <configuration name="ServerStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework3.chat.ServerStarter" />
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework7.Lesson7.*" />
+          <option name="PATTERN" value="homework3.chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework4.ThreadApp" />
+      <module name="Java3Level" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadApp" />
+        <item itemvalue="Application.ExecutorApp" />
+        <item itemvalue="Application.ChatMain" />
+        <item itemvalue="Application.ServerStarter" />
         <item itemvalue="Application.InterruptApp" />
-        <item itemvalue="Application.DeadLockApp" />
-        <item itemvalue="Application.CounterApp" />
-        <item itemvalue="Application.MethodReflectionApp" />
-        <item itemvalue="Application.ConstructorReflectionApp" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +158,8 @@
       <workItem from="1638785966456" duration="8711000" />
       <workItem from="1639250067740" duration="18417000" />
       <workItem from="1639337355694" duration="7231000" />
+      <workItem from="1639753951218" duration="697000" />
+      <workItem from="1639769092567" duration="4062000" />
     </task>
     <servers />
   </component>

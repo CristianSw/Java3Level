@@ -5,6 +5,8 @@ package homework3.chat.client;
 import homework3.chat.client.communication.ClientCommunicator;
 import homework3.chat.client.gui.ChatFrame;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.function.Consumer;
 
 public class OutstandingChat {
@@ -19,15 +21,14 @@ public class OutstandingChat {
 
         frame = new ChatFrame(outboundMessageConsumer);
 
-        new Thread(() -> {
+        ExecutorService executorService = Executors.newCachedThreadPool();
+        executorService.execute(()->{
             while (true) {
                 String inboundMessage = communicator.receiveMessage();
                 frame.getInboundMessageConsumer().accept(inboundMessage);
             }
-        }).start();
-
-
-    }
+        });
+        }
 
 
 }
