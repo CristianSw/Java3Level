@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cfd3f04-336f-44e0-844a-455a7631e105" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework4/ThreadApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/CountDownApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/CyclicApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/DemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/LockApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/SemaphoreApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/VolatileAPP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/Race.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/RaceApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/Road.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/Stage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/Tunnel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework3/chat/client/OutstandingChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/client/OutstandingChat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework3/chat/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework4/Lesson4/ExecutorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework4/Lesson4/ExecutorApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +70,20 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/homework3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadApp">
-    <configuration name="ChatMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.chat.ChatMain" />
+  <component name="RunManager" selected="Application.RaceApp">
+    <configuration name="CountDownApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework5.Lesson.CountDownApp" />
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework3.chat.*" />
+          <option name="PATTERN" value="homework5.Lesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework4.Lesson4.ExecutorApp" />
+    <configuration name="CyclicApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework5.Lesson.CyclicApp" />
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework4.Lesson4.*" />
+          <option name="PATTERN" value="homework5.Lesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterruptApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework4.Lesson4.InterruptApp" />
+    <configuration name="RaceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework5.homework.RaceApp" />
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework4.Lesson4.*" />
+          <option name="PATTERN" value="homework5.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.chat.ServerStarter" />
+    <configuration name="SemaphoreApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework5.Lesson.SemaphoreApp" />
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework3.chat.*" />
+          <option name="PATTERN" value="homework5.Lesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework4.ThreadApp" />
+    <configuration name="VolatileAPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework5.Lesson.VolatileAPP" />
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework4.*" />
+          <option name="PATTERN" value="homework5.Lesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadApp" />
-        <item itemvalue="Application.ExecutorApp" />
-        <item itemvalue="Application.ChatMain" />
-        <item itemvalue="Application.ServerStarter" />
-        <item itemvalue="Application.InterruptApp" />
+        <item itemvalue="Application.RaceApp" />
+        <item itemvalue="Application.VolatileAPP" />
+        <item itemvalue="Application.CyclicApp" />
+        <item itemvalue="Application.CountDownApp" />
+        <item itemvalue="Application.SemaphoreApp" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +167,7 @@
       <workItem from="1639250067740" duration="18417000" />
       <workItem from="1639337355694" duration="7231000" />
       <workItem from="1639753951218" duration="697000" />
-      <workItem from="1639769092567" duration="4062000" />
+      <workItem from="1639769092567" duration="22314000" />
     </task>
     <servers />
   </component>
