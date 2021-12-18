@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2cfd3f04-336f-44e0-844a-455a7631e105" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/homework1/ArrayToArraylist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1/ElementChanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1/fruits/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1/fruits/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1/fruits/Fruits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1/fruits/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/CountDownApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/CyclicApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/DemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/LockApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/SemaphoreApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/VolatileAPP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/Race.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/RaceApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/Road.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/Stage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/Tunnel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,25 +35,123 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="homework3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="20uysZ09jw3oFvEWHjHVVTXxXry" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/homework3" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/homework3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RaceApp">
+    <configuration name="CountDownApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework5.Lesson.CountDownApp" />
+      <module name="Java3Level" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework5.Lesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework5.Lesson.CyclicApp" />
+      <module name="Java3Level" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework5.Lesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RaceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework5.homework.RaceApp" />
+      <module name="Java3Level" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework5.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SemaphoreApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework5.Lesson.SemaphoreApp" />
+      <module name="Java3Level" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework5.Lesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VolatileAPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework5.Lesson.VolatileAPP" />
+      <module name="Java3Level" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework5.Lesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RaceApp" />
+        <item itemvalue="Application.VolatileAPP" />
+        <item itemvalue="Application.CyclicApp" />
+        <item itemvalue="Application.CountDownApp" />
+        <item itemvalue="Application.SemaphoreApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -56,6 +163,11 @@
       <updated>1636908976747</updated>
       <workItem from="1636908980294" duration="2718000" />
       <workItem from="1636911717101" duration="1687000" />
+      <workItem from="1638785966456" duration="8711000" />
+      <workItem from="1639250067740" duration="18417000" />
+      <workItem from="1639337355694" duration="7231000" />
+      <workItem from="1639753951218" duration="697000" />
+      <workItem from="1639769092567" duration="22314000" />
     </task>
     <servers />
   </component>
@@ -72,6 +184,18 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
