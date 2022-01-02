@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cfd3f04-336f-44e0-844a-455a7631e105" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/CountDownApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/CyclicApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/DemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/LockApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/SemaphoreApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/Lesson/VolatileAPP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/Race.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/RaceApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/Road.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/Stage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework5/homework/Tunnel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/logfile.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework6/Lesson/AssertApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework6/Lesson/Battery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework6/Lesson/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework6/Lesson/CurrentClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework6/Lesson/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java3Level.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java3Level.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework3/chat/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework3/chat/server/DBAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/DBAuthService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -64,10 +64,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/homework3" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -76,80 +78,104 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/homework3" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="homework6.Lesson" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.RaceApp">
-    <configuration name="CountDownApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework5.Lesson.CountDownApp" />
+  <component name="RunManager" selected="JUnit.CalculatorTest.testSumMultiWithMethod">
+    <configuration name="CalculatorTest.division" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework5.Lesson.*" />
+          <option name="PATTERN" value="homework6.Lesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="homework6.Lesson" />
+      <option name="MAIN_CLASS_NAME" value="homework6.Lesson.CalculatorTest" />
+      <option name="METHOD_NAME" value="division" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework5.Lesson.CyclicApp" />
+    <configuration name="CalculatorTest.divisionWithException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework5.Lesson.*" />
+          <option name="PATTERN" value="homework6.Lesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="homework6.Lesson" />
+      <option name="MAIN_CLASS_NAME" value="homework6.Lesson.CalculatorTest" />
+      <option name="METHOD_NAME" value="divisionWithException" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework5.homework.RaceApp" />
+    <configuration name="CalculatorTest.multiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework5.homework.*" />
+          <option name="PATTERN" value="homework6.Lesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="homework6.Lesson" />
+      <option name="MAIN_CLASS_NAME" value="homework6.Lesson.CalculatorTest" />
+      <option name="METHOD_NAME" value="multiply" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework5.Lesson.SemaphoreApp" />
+    <configuration name="CalculatorTest.testSumMulti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework5.Lesson.*" />
+          <option name="PATTERN" value="homework6.Lesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="homework6.Lesson" />
+      <option name="MAIN_CLASS_NAME" value="homework6.Lesson.CalculatorTest" />
+      <option name="METHOD_NAME" value="testSumMulti(int,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileAPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework5.Lesson.VolatileAPP" />
+    <configuration name="CalculatorTest.testSumMultiWithMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework5.Lesson.*" />
+          <option name="PATTERN" value="homework6.Lesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="homework6.Lesson" />
+      <option name="MAIN_CLASS_NAME" value="homework6.Lesson.CalculatorTest" />
+      <option name="METHOD_NAME" value="testSumMultiWithMethod(int,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RaceApp" />
-        <item itemvalue="Application.VolatileAPP" />
-        <item itemvalue="Application.CyclicApp" />
-        <item itemvalue="Application.CountDownApp" />
-        <item itemvalue="Application.SemaphoreApp" />
+        <item itemvalue="JUnit.CalculatorTest.testSumMultiWithMethod" />
+        <item itemvalue="JUnit.CalculatorTest.testSumMulti" />
+        <item itemvalue="JUnit.CalculatorTest.divisionWithException" />
+        <item itemvalue="JUnit.CalculatorTest.division" />
+        <item itemvalue="JUnit.CalculatorTest.multiply" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +194,12 @@
       <workItem from="1639337355694" duration="7231000" />
       <workItem from="1639753951218" duration="697000" />
       <workItem from="1639769092567" duration="22314000" />
+      <workItem from="1641053923070" duration="3740000" />
+      <workItem from="1641056789704" duration="3840000" />
+      <workItem from="1641061057409" duration="299000" />
+      <workItem from="1641062803856" duration="1203000" />
+      <workItem from="1641121087404" duration="556000" />
+      <workItem from="1641123349164" duration="1616000" />
     </task>
     <servers />
   </component>
@@ -195,6 +227,15 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/homework6/Lesson/Calculator.java</url>
+          <line>10</line>
+          <properties class="homework6.Lesson.Calculator" method="division">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -1,6 +1,8 @@
 package homework3.chat.server;
 
 import homework3.chat.client.Clients;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.sql.*;
 import java.util.HashMap;
@@ -12,6 +14,7 @@ public class DBAuthService implements AuthServiceInterface {
     private static Statement statement;
     private Map<String, Clients> clientsMap = new HashMap<>();
     private String sqlQuery = "SELECT login, passwd, username FROM users;";
+    private static final Logger logger = LogManager.getLogger(DBAuthService.class);
 
     public DBAuthService() {
         try {
@@ -25,6 +28,7 @@ public class DBAuthService implements AuthServiceInterface {
                     String passwd = resultSet.getString(2);
                     String username = resultSet.getString(3);
                     clientsMap.put(login, new Clients(login, passwd, username));
+                    logger.info("client credentials from DB are : {} {} {}", login, passwd, username);
                 }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -36,12 +40,15 @@ public class DBAuthService implements AuthServiceInterface {
 
     @Override
     public void start() throws  SQLException {
-        System.out.println("Auth Service is starting.");
+//        System.out.println("Auth Service is starting.");
+        logger.debug("Auth is starting");
         try {
             connection = DriverManager.getConnection("jdbc:sqlite:chat_users.sqlite");
-            System.out.println("Connection created.");
+            logger.debug("Connection created successfully.");
+//            System.out.println("Connection created.");
             statement = connection.createStatement();
-            System.out.println("Statement created");
+            logger.debug("Statement created successfully.");
+//            System.out.println("Statement created");
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -50,11 +57,13 @@ public class DBAuthService implements AuthServiceInterface {
 
     @Override
     public void stop() {
-        System.out.println("Auth Service is stopping.");
+//        System.out.println("Auth Service is stopping.");
+        logger.debug("Auth Service is stopping");
         try {
             if (statement != null) {
                 statement.close();
-                System.out.println("Statement closed.");
+//                System.out.println("Statement closed.");
+                logger.debug("Statement closed.");
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -62,7 +71,8 @@ public class DBAuthService implements AuthServiceInterface {
         try {
             if (connection != null) {
                 connection.close();
-                System.out.println("Connection closed.");
+//                System.out.println("Connection closed.");
+                logger.debug("Connection closed.");
             }
         } catch (SQLException e) {
             e.printStackTrace();
