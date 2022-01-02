@@ -1,5 +1,6 @@
 package homework3.chat.server;
 
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -9,6 +10,11 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.io.*;
+import java.net.Socket;
+import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
+import java.util.Optional;
 
 public class ClientHandler {
 
@@ -19,7 +25,8 @@ public class ClientHandler {
     private boolean isAuthenticated = false;
     private static final Logger logger = LogManager.getLogger(ClientHandler.class);
     private final ExecutorService executorService = Executors.newCachedThreadPool();
-
+    private String login;
+    
     public ClientHandler(Server server, Socket socket) {
         try {
             this.server = server;
@@ -86,6 +93,7 @@ public class ClientHandler {
                 String username = server
                         .getAuthService()
                         .findUserByLoginAndPassword(credentials[1], credentials[2]);
+                login = credentials[1];
 
 
                 if (username != null) {
@@ -94,7 +102,10 @@ public class ClientHandler {
                         name = username;
                         server.broadcastMessage("Hello, " + username);
                         server.subscribe(this);
+
                         logger.info("User :{} is logged in",username);
+                        loadHistory(credentials[1]);
+
                         return;
                     } else {
                         sendMessage("This username is busy!");
@@ -122,18 +133,62 @@ public class ClientHandler {
 
     }
 
-    private void history(final String login){
+    public void history(final String login){
+        File file = new File(login+"History");
+        if (!file.exists()){
+            try {
+                file.createNewFile();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        try (PrintWriter outFile = new PrintWriter(new FileWriter(file,true))){
+            String mayBeMessage = in.readUTF();
+            if (!mayBeMessage.startsWith("-")){
+                outFile.append("Message : ").append(Arrays.toString(mayBeMessage.getBytes(StandardCharsets.UTF_8))).append("\n");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 
-    private void loadHistory(final String login){
+    public void loadHistory(final String login){
+        File file = new File(login+"History");
+        if (!file.exists()){
+            try {
+                file.createNewFile();
+                sendMessage("No local history.");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        try (BufferedReader reader = new BufferedReader(new FileReader(login+"History"))){
+            StringBuffer stringBuffer = new StringBuffer();
+            int ch;
+            while ((ch = reader.read()) != -1){
+                stringBuffer.append((char) ch);
+                stringBuffer.append(" ");
+            }
 
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
+
+//    public void changeUsername(final String oldUsername, final String newUsername){
+//        try {
+//            //todo
+//        }
+//    }
 
     public void sendMessage(String outboundMessage) {
         try {
             out.writeUTF(outboundMessage);
             logger.info("client send message : {}", outboundMessage);
+            history(login);
         } catch (IOException e) {
             e.printStackTrace();
         }
