@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cfd3f04-336f-44e0-844a-455a7631e105" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework6/homework/IntArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid352070" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework6/homework/IntArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework6/homework/IntArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework6/homework/IntArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -76,85 +78,85 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="homework6.homework" />
       <recent name="homework6.Lesson" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.testSumMultiWithMethod">
-    <configuration name="CalculatorTest.division" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IntArrayTest">
+    <configuration name="IntArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework6.Lesson.*" />
+          <option name="PATTERN" value="homework6.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework6.Lesson" />
-      <option name="MAIN_CLASS_NAME" value="homework6.Lesson.CalculatorTest" />
-      <option name="METHOD_NAME" value="division" />
+      <option name="PACKAGE_NAME" value="homework6.homework" />
+      <option name="MAIN_CLASS_NAME" value="homework6.homework.IntArrayTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntArrayTest.checkArrayForFourAndOne (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java3Level" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework6.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework6.homework" />
+      <option name="MAIN_CLASS_NAME" value="homework6.homework.IntArrayTest" />
+      <option name="METHOD_NAME" value="checkArrayForFourAndOne(int[])" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.divisionWithException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntArrayTest.checkArrayForFourAndOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework6.Lesson.*" />
+          <option name="PATTERN" value="homework6.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework6.Lesson" />
-      <option name="MAIN_CLASS_NAME" value="homework6.Lesson.CalculatorTest" />
-      <option name="METHOD_NAME" value="divisionWithException" />
+      <option name="PACKAGE_NAME" value="homework6.homework" />
+      <option name="MAIN_CLASS_NAME" value="homework6.homework.IntArrayTest" />
+      <option name="METHOD_NAME" value="checkArrayForFourAndOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.multiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntArrayTest.checkArrayForFoursWithException (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework6.Lesson.*" />
+          <option name="PATTERN" value="homework6.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework6.Lesson" />
-      <option name="MAIN_CLASS_NAME" value="homework6.Lesson.CalculatorTest" />
-      <option name="METHOD_NAME" value="multiply" />
+      <option name="PACKAGE_NAME" value="homework6.homework" />
+      <option name="MAIN_CLASS_NAME" value="homework6.homework.IntArrayTest" />
+      <option name="METHOD_NAME" value="checkArrayForFoursWithException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testSumMulti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntArrayTest.checkArrayForFoursWithException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework6.Lesson.*" />
+          <option name="PATTERN" value="homework6.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework6.Lesson" />
-      <option name="MAIN_CLASS_NAME" value="homework6.Lesson.CalculatorTest" />
-      <option name="METHOD_NAME" value="testSumMulti(int,int,int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.testSumMultiWithMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java3Level" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework6.Lesson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework6.Lesson" />
-      <option name="MAIN_CLASS_NAME" value="homework6.Lesson.CalculatorTest" />
-      <option name="METHOD_NAME" value="testSumMultiWithMethod(int,int,int)" />
+      <option name="PACKAGE_NAME" value="homework6.homework" />
+      <option name="MAIN_CLASS_NAME" value="homework6.homework.IntArrayTest" />
+      <option name="METHOD_NAME" value="checkArrayForFoursWithException(int[])" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.testSumMultiWithMethod" />
-        <item itemvalue="JUnit.CalculatorTest.testSumMulti" />
-        <item itemvalue="JUnit.CalculatorTest.divisionWithException" />
-        <item itemvalue="JUnit.CalculatorTest.division" />
-        <item itemvalue="JUnit.CalculatorTest.multiply" />
+        <item itemvalue="JUnit.IntArrayTest" />
+        <item itemvalue="JUnit.IntArrayTest.checkArrayForFourAndOne (1)" />
+        <item itemvalue="JUnit.IntArrayTest.checkArrayForFourAndOne" />
+        <item itemvalue="JUnit.IntArrayTest.checkArrayForFoursWithException (1)" />
+        <item itemvalue="JUnit.IntArrayTest.checkArrayForFoursWithException" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +192,7 @@
       <workItem from="1641061057409" duration="299000" />
       <workItem from="1641062803856" duration="1203000" />
       <workItem from="1641121087404" duration="556000" />
-      <workItem from="1641123349164" duration="3589000" />
+      <workItem from="1641123349164" duration="8373000" />
     </task>
     <servers />
   </component>
@@ -221,11 +223,35 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/homework6/Lesson/Calculator.java</url>
           <line>10</line>
-          <properties class="homework6.Lesson.Calculator" method="division">
+          <properties class="homework6.Lesson.Calculator" method="&lt;init&gt;">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/homework6/homework/IntArrayTest.java</url>
+          <line>32</line>
+          <properties class="homework6.homework.IntArrayTest" method="checkArrayForFours">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/homework6/homework/IntArray.java</url>
+          <line>5</line>
+          <properties class="homework6.homework.IntArray" method="checkArrayForFours">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/homework6/homework/IntArrayTest.java</url>
+          <line>20</line>
+          <properties field="intArray" class="homework6.homework.IntArrayTest" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

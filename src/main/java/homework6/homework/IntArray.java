@@ -3,16 +3,15 @@ package homework6.homework;
 
 public class IntArray {
 
-    public static int[] checkArrayForFours(int[] array) {
+    public   int[] checkArrayForFours(int[] array) {
         boolean isFour = false;
         int[] result = null;
+        int exceptionHandler = 0;
 
 
         for (int i = 0; i < array.length; i++) {
             if (array[i] == 4) {
-                isFour = true;
-            }
-            if (isFour) {
+                exceptionHandler = array[i];
                 result = new int[array.length - i - 1];
                 for (int j = i + 1, counter = 0; j < array.length; j++, counter++) {
                     if (array[j] == 4) continue;
@@ -20,14 +19,17 @@ public class IntArray {
                 }
             }
         }
-        if (!isFour) {
-            throw new RuntimeException("Provided array dont have 4's");
+        try {
+            exceptionHandler = 1 /exceptionHandler;
+        }catch (ArithmeticException e){
+            throw  new RuntimeException("There is not 4's ");
         }
+
         return result;
     }
 
 
-    public static boolean checkArrayForFourAndOne(int[] array){
+    public  boolean checkArrayForFourAndOne(int[] array){
         for (int i = 0; i < array.length; i++) {
             if (array[i] == 1 || array[i] ==4){
                 return true;
