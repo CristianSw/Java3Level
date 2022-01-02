@@ -1,5 +1,15 @@
 package homework3.chat.server;
 
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.Socket;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.io.*;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
@@ -13,8 +23,10 @@ public class ClientHandler {
     private DataOutputStream out;
     private String name;
     private boolean isAuthenticated = false;
+    private static final Logger logger = LogManager.getLogger(ClientHandler.class);
+    private final ExecutorService executorService = Executors.newCachedThreadPool();
     private String login;
-
+    
     public ClientHandler(Server server, Socket socket) {
         try {
             this.server = server;
@@ -71,9 +83,11 @@ public class ClientHandler {
         sendMessage("Please do authentication. Template is: -auth [login] [password]");
 
         while (true) {
-            new Thread(() -> timeoutValidator(socket, startConnectingTime)).start();
+            executorService.execute(()->timeoutValidator(socket, startConnectingTime));
+           // new Thread(() -> timeoutValidator(socket, startConnectingTime)).start(); //alternative to executor service
             String maybeCredentials = in.readUTF();
             if (maybeCredentials.startsWith("-auth")) {
+                logger.info("Authentication started!");
                 String[] credentials = maybeCredentials.split("\\s");
 
                 String username = server
@@ -88,14 +102,19 @@ public class ClientHandler {
                         name = username;
                         server.broadcastMessage("Hello, " + username);
                         server.subscribe(this);
+
+                        logger.info("User :{} is logged in",username);
                         loadHistory(credentials[1]);
+
                         return;
                     } else {
                         sendMessage("This username is busy!");
+                        logger.info("username is busy : {}", username);
                     }
                 }
             } else {
                 sendMessage("Wrong Login or Passwd !!!!");
+                logger.warn("Wrong login or passwd");
             }
         }
     }
@@ -106,6 +125,7 @@ public class ClientHandler {
             currentTime = (int) System.currentTimeMillis();
             if ((currentTime - initialConnectionTime) >= 120000) {
                 sendMessage("Connection Timeout. Closing connection!");
+                logger.warn("Connection timeout!!!!");
                 closeConnection(socket);
                 break;
             }
@@ -167,6 +187,7 @@ public class ClientHandler {
     public void sendMessage(String outboundMessage) {
         try {
             out.writeUTF(outboundMessage);
+            logger.info("client send message : {}", outboundMessage);
             history(login);
         } catch (IOException e) {
             e.printStackTrace();
@@ -177,6 +198,7 @@ public class ClientHandler {
         while (true) {
             String inboundMessage = in.readUTF();
             if (inboundMessage.equals("-exit")) {
+                logger.info("user exit !");
                 break;
             }
             server.broadcastMessage(inboundMessage);

@@ -3,7 +3,7 @@ package homework3.chat.server;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
-
+@Deprecated
 public class BaseAuthService {
 
     private static final List<Entry> entries;

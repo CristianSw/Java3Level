@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cfd3f04-336f-44e0-844a-455a7631e105" name="Changes" comment="">
+
+      <change afterPath="$PROJECT_DIR$/.attach_pid352070" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework6/homework/IntArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework3/chat/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework3/chat/server/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework6/homework/IntArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework6/homework/IntArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,15 +19,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework" />
+        <entry key="$PROJECT_DIR$" value="homework3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,91 +57,119 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/homework3" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/homework3" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="homework6.homework" />
+      <recent name="homework6.Lesson" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MethodReflectionApp">
-    <configuration name="ChatMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.chat.ChatMain" />
+  <component name="RunManager" selected="JUnit.IntArrayTest">
+    <configuration name="IntArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework3.chat.*" />
+          <option name="PATTERN" value="homework6.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="homework6.homework" />
+      <option name="MAIN_CLASS_NAME" value="homework6.homework.IntArrayTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructorReflectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework7.Lesson7.ConstructorReflectionApp" />
+    <configuration name="IntArrayTest.checkArrayForFourAndOne (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework7.Lesson7.*" />
+          <option name="PATTERN" value="homework6.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="homework6.homework" />
+      <option name="MAIN_CLASS_NAME" value="homework6.homework.IntArrayTest" />
+      <option name="METHOD_NAME" value="checkArrayForFourAndOne(int[])" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldReflectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework7.Lesson7.FieldReflectionApp" />
+    <configuration name="IntArrayTest.checkArrayForFourAndOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework7.Lesson7.*" />
+          <option name="PATTERN" value="homework6.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="homework6.homework" />
+      <option name="MAIN_CLASS_NAME" value="homework6.homework.IntArrayTest" />
+      <option name="METHOD_NAME" value="checkArrayForFourAndOne" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodReflectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework7.Lesson7.MethodReflectionApp" />
+    <configuration name="IntArrayTest.checkArrayForFoursWithException (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework7.Lesson7.*" />
+          <option name="PATTERN" value="homework6.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="homework6.homework" />
+      <option name="MAIN_CLASS_NAME" value="homework6.homework.IntArrayTest" />
+      <option name="METHOD_NAME" value="checkArrayForFoursWithException" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework7.Lesson7.ReflectionApp" />
+    <configuration name="IntArrayTest.checkArrayForFoursWithException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java3Level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework7.Lesson7.*" />
+          <option name="PATTERN" value="homework6.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="homework6.homework" />
+      <option name="MAIN_CLASS_NAME" value="homework6.homework.IntArrayTest" />
+      <option name="METHOD_NAME" value="checkArrayForFoursWithException(int[])" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MethodReflectionApp" />
-        <item itemvalue="Application.ConstructorReflectionApp" />
-        <item itemvalue="Application.FieldReflectionApp" />
-        <item itemvalue="Application.ReflectionApp" />
-        <item itemvalue="Application.ChatMain" />
+        <item itemvalue="JUnit.IntArrayTest" />
+        <item itemvalue="JUnit.IntArrayTest.checkArrayForFourAndOne (1)" />
+        <item itemvalue="JUnit.IntArrayTest.checkArrayForFourAndOne" />
+        <item itemvalue="JUnit.IntArrayTest.checkArrayForFoursWithException (1)" />
+        <item itemvalue="JUnit.IntArrayTest.checkArrayForFoursWithException" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +185,16 @@
       <workItem from="1636911717101" duration="1687000" />
       <workItem from="1638785966456" duration="8711000" />
       <workItem from="1639250067740" duration="18417000" />
+
+      <workItem from="1639337355694" duration="7231000" />
+      <workItem from="1639753951218" duration="697000" />
+      <workItem from="1639769092567" duration="22314000" />
+      <workItem from="1641053923070" duration="3740000" />
+      <workItem from="1641056789704" duration="3840000" />
+      <workItem from="1641061057409" duration="299000" />
+      <workItem from="1641062803856" duration="1203000" />
+      <workItem from="1641121087404" duration="556000" />
+      <workItem from="1641123349164" duration="8373000" />
       <workItem from="1639337355694" duration="7885000" />
       <workItem from="1639513827328" duration="2194000" />
     </task>
@@ -171,7 +213,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -183,6 +224,39 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/homework6/Lesson/Calculator.java</url>
+          <line>10</line>
+          <properties class="homework6.Lesson.Calculator" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/homework6/homework/IntArrayTest.java</url>
+          <line>32</line>
+          <properties class="homework6.homework.IntArrayTest" method="checkArrayForFours">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/homework6/homework/IntArray.java</url>
+          <line>5</line>
+          <properties class="homework6.homework.IntArray" method="checkArrayForFours">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/homework6/homework/IntArrayTest.java</url>
+          <line>20</line>
+          <properties field="intArray" class="homework6.homework.IntArrayTest" />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
